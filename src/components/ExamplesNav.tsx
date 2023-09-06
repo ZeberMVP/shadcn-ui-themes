@@ -60,7 +60,7 @@ export function ExamplesNav({ className, ...props }: ExamplesNavProps) {
 							key={example.href}
 							className={cn(
 								'flex items-center px-4',
-								pathname?.startsWith(example.href)
+								pathname?.endsWith(example.href)
 									? 'font-bold text-primary'
 									: 'font-medium text-muted-foreground'
 							)}
@@ -71,33 +71,6 @@ export function ExamplesNav({ className, ...props }: ExamplesNavProps) {
 				</div>
 				<ScrollBar orientation='horizontal' className='invisible' />
 			</ScrollArea>
-			<ExampleCodeLink
-				pathname={pathname === '/' ? '/examples/dashboard' : pathname}
-			/>
 		</div>
-	)
-}
-
-interface ExampleCodeLinkProps {
-	pathname: string | null
-}
-
-export function ExampleCodeLink({ pathname }: ExampleCodeLinkProps) {
-	const example = examples.find((example) => pathname?.startsWith(example.href))
-
-	if (!example?.code) {
-		return null
-	}
-
-	return (
-		<Link
-			href={example?.code}
-			target='_blank'
-			rel='nofollow'
-			className='absolute right-0 top-0 hidden items-center rounded-[0.5rem] text-sm font-medium md:flex'
-		>
-			View code
-			<ArrowRightIcon className='ml-1 h-4 w-4' />
-		</Link>
 	)
 }

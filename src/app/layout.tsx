@@ -101,8 +101,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
 										</PageHeaderHeading>
 										<PageHeaderDescription>
 											Dashboard, cards, authentication. Some examples built
-											using the components. Use this as a guide to build your
-											own.
+											using the components. Use this as a reference when
+											selecting a theme.
 										</PageHeaderDescription>
 									</PageHeader>
 									<section>

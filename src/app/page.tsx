@@ -1,6 +1,12 @@
-import { Metadata } from 'next'
 import Image from 'next/image'
 
+import { CalendarDateRangePicker } from '@/app/dashboard/components/DateRangePicker'
+import { MainNav } from '@/app/dashboard/components/MainNav'
+import { Overview } from '@/app/dashboard/components/Overview'
+import { RecentSales } from '@/app/dashboard/components/RecentSales'
+import { Search } from '@/app/dashboard/components/Search'
+import TeamSwitcher from '@/app/dashboard/components/TeamSwitcher'
+import { UserNav } from '@/app/dashboard/components/UserNav'
 import { Button } from '@/registry/new-york/ui/Button'
 import {
 	Card,
@@ -15,32 +21,20 @@ import {
 	TabsList,
 	TabsTrigger,
 } from '@/registry/new-york/ui/Tabs'
-import { CalendarDateRangePicker } from '@/app/dashboard/components/DateRangePicker'
-import { MainNav } from '@/app/dashboard/components/MainNav'
-import { Overview } from '@/app/dashboard/components/Overview'
-import { RecentSales } from '@/app/dashboard/components/RecentSales'
-import { Search } from '@/app/dashboard/components/Search'
-import TeamSwitcher from '@/app/dashboard/components/TeamSwitcher'
-import { UserNav } from '@/app/dashboard/components/UserNav'
-
-// export const metadata: Metadata = {
-// 	title: 'Dashboard',
-// 	description: 'Example dashboard app built using the components.',
-// }
 
 export default function DashboardPage() {
 	return (
 		<>
 			<div className='md:hidden'>
 				<Image
-					src='/examples/dashboard-light.png'
+					src='/dashboard-light.png'
 					width={1280}
 					height={866}
 					alt='Dashboard'
 					className='block dark:hidden'
 				/>
 				<Image
-					src='/examples/dashboard-dark.png'
+					src='/dashboard-dark.png'
 					width={1280}
 					height={866}
 					alt='Dashboard'

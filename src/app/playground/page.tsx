@@ -34,14 +34,14 @@ export default function PlaygroundPage() {
 		<>
 			<div className='md:hidden'>
 				<Image
-					src='/examples/playground-light.png'
+					src='/playground-light.png'
 					width={1280}
 					height={916}
 					alt='Playground'
 					className='block dark:hidden'
 				/>
 				<Image
-					src='/examples/playground-dark.png'
+					src='/playground-dark.png'
 					width={1280}
 					height={916}
 					alt='Playground'

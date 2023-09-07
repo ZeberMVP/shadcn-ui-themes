@@ -32,14 +32,14 @@ export default async function TaskPage() {
 		<>
 			<div className='md:hidden'>
 				<Image
-					src='/examples/tasks-light.png'
+					src='/tasks-light.png'
 					width={1280}
 					height={998}
 					alt='Playground'
 					className='block dark:hidden'
 				/>
 				<Image
-					src='/examples/tasks-dark.png'
+					src='/tasks-dark.png'
 					width={1280}
 					height={998}
 					alt='Playground'

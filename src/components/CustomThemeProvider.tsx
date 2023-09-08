@@ -2,7 +2,7 @@
 
 import themes from "@/lib/themes.json";
 import * as React from "react";
-import { ReactNode, useEffect, useState } from "react";
+import { ReactNode, useState } from "react";
 
 type CustomThemeContextType = {
   currentTheme: string;
@@ -22,10 +22,6 @@ export function CustomThemeProvider({ children }: CustomThemeProviderProps) {
   const [currentTheme, setCurrentTheme] = useState(
     window?.localStorage?.getItem("currentTheme") || themes[0].theme,
   );
-
-  useEffect(() => {
-    window?.localStorage?.setItem("currentTheme", currentTheme);
-  }, [currentTheme]);
 
   function handleThemeChange(theme: string) {
     setCurrentTheme(theme);

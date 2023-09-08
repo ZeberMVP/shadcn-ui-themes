@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 
 import { Metadata } from "next";
 
+import { CustomThemeProvider } from "@/components/CustomThemeProvider";
 import { ExamplesNav } from "@/components/ExamplesNav";
 import {
   PageHeader,
@@ -20,58 +21,6 @@ import { fontSans } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 import { Toaster as DefaultToaster } from "@/registry/default/ui/Toaster";
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/Toaster";
-import {
-  CustomThemeProvider,
-  useTheme,
-} from "@/components/CustomThemeProvider";
-
-export const metadata: Metadata = {
-  title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
-  },
-  description: siteConfig.description,
-  keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Server Components",
-    "Radix UI",
-  ],
-  authors: [
-    {
-      name: "ZeberMVP",
-      url: "https://rubenzafra.com",
-    },
-  ],
-  creator: "ZeberMVP",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: siteConfig.url,
-    title: siteConfig.name,
-    description: siteConfig.description,
-    siteName: siteConfig.name,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 1200,
-        height: 630,
-        alt: siteConfig.name,
-      },
-    ],
-  },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-  },
-  manifest: `${siteConfig.url}/site.webmanifest`,
-};
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -86,7 +35,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
         suppressHydrationWarning
         className={storedTheme || "default"}
       >
-        <head />
+        <head>
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="description" content={siteConfig.description} />
+          <title>{siteConfig.name}</title>
+        </head>
+
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",

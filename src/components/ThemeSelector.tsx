@@ -20,8 +20,8 @@ const ThemeSelector = () => {
       <Select
         defaultValue={currentTheme}
         onValueChange={(value) => {
-          localStorage.setItem("currentTheme", value);
-          window.location.reload();
+          window?.localStorage?.setItem("currentTheme", value);
+          window?.location.reload();
         }}
       >
         <SelectTrigger

@@ -25,7 +25,7 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
-  const storedTheme = localStorage.getItem("currentTheme");
+  const storedTheme = window?.localStorage?.getItem("currentTheme");
   return (
     <>
       <html

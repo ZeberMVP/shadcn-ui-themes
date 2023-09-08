@@ -19,9 +19,13 @@ export const CustomThemeContext = React.createContext<CustomThemeContextType>({
 });
 
 export function CustomThemeProvider({ children }: CustomThemeProviderProps) {
-  const [currentTheme, setCurrentTheme] = useState(
-    window?.localStorage?.getItem("currentTheme") || themes[0].theme,
-  );
+  let storedTheme = "default";
+
+  if (typeof window !== "undefined") {
+    storedTheme = window.localStorage.getItem("currentTheme") || "default";
+  }
+
+  const [currentTheme, setCurrentTheme] = useState(storedTheme);
 
   function handleThemeChange(theme: string) {
     setCurrentTheme(theme);

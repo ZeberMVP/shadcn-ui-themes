@@ -1,6 +1,3 @@
-"use client";
-
-import themes from "@/lib/themes.json";
 import {
   Select,
   SelectContent,
@@ -9,19 +6,21 @@ import {
   SelectValue,
 } from "@/registry/new-york/ui/Select";
 import CopyButton from "./CopyButton";
-import { useTheme } from "./CustomThemeProvider";
+import { useState } from "react";
+import themes from "@/lib/themes.json";
 
 const ThemeSelector = () => {
-  const { currentTheme } = useTheme();
-  const copyValue = themes.find((t) => t.theme === currentTheme)?.values || "";
-
+  const [selectedTheme, setSelectedTheme] = useState("default");
+  const [copyValue, setCopyValue] = useState(
+    themes.find((t) => t.theme === selectedTheme)?.values || "",
+  );
   return (
     <div className="absolute right-0 top-0 flex items-center gap-4 rounded-[0.5rem] text-sm font-medium">
       <Select
-        defaultValue={currentTheme}
+        defaultValue="default"
         onValueChange={(value) => {
-          window?.localStorage?.setItem("currentTheme", value);
-          window?.location.reload();
+          setSelectedTheme(value);
+          setCopyValue(themes.find((t) => t.theme === value)?.values || "");
         }}
       >
         <SelectTrigger

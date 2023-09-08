@@ -23,11 +23,12 @@ export function CustomThemeProvider({ children }: CustomThemeProviderProps) {
     localStorage.getItem("currentTheme") || themes[0].theme,
   );
 
-  useEffect(() => {}, [currentTheme]);
+  useEffect(() => {
+    localStorage.setItem("currentTheme", currentTheme);
+  }, [currentTheme]);
 
   function handleThemeChange(theme: string) {
     setCurrentTheme(theme);
-    localStorage.setItem("currentTheme", theme);
   }
 
   return (

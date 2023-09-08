@@ -2,8 +2,6 @@
 
 import "@/styles/globals.css";
 
-import { Metadata } from "next";
-
 import { CustomThemeProvider } from "@/components/CustomThemeProvider";
 import { ExamplesNav } from "@/components/ExamplesNav";
 import {

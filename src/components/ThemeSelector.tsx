@@ -8,19 +8,21 @@ import {
 import CopyButton from "./CopyButton";
 import { useState } from "react";
 import themes from "@/lib/themes.json";
+import { getCookie, setCookie } from "@/lib/cookie";
 
 const ThemeSelector = () => {
-  const [selectedTheme, setSelectedTheme] = useState("default");
+  const currentTheme = getCookie("currentTheme");
   const [copyValue, setCopyValue] = useState(
-    themes.find((t) => t.theme === selectedTheme)?.values || "",
+    themes.find((t) => t.theme === currentTheme)?.values || "",
   );
   return (
     <div className="absolute right-0 top-0 flex items-center gap-4 rounded-[0.5rem] text-sm font-medium">
       <Select
-        defaultValue="default"
+        defaultValue={currentTheme || "default"}
         onValueChange={(value) => {
-          setSelectedTheme(value);
+          setCookie("currentTheme", value, { expires: 30 });
           setCopyValue(themes.find((t) => t.theme === value)?.values || "");
+          window.location.reload();
         }}
       >
         <SelectTrigger

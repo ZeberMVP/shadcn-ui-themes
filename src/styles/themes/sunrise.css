@@ -1,0 +1,61 @@
+.sunrise.light {
+  --background: 40, 80%, 95%;
+  --foreground: 30, 50%, 20%;
+
+  --muted: 40, 30%, 85%;
+  --muted-foreground: 30, 50%, 20%;
+
+  --popover: 40, 80%, 85%;
+  --popover-foreground: 30, 50%, 20%;
+
+  --border: 30, 50%, 40%;
+  --input: 30, 50%, 40%;
+
+  --card: 40, 80%, 95%;
+  --card-foreground: 30, 50%, 20%;
+
+  --primary: 40, 80%, 75%;
+  --primary-foreground: 30, 50%, 95%;
+
+  --secondary: 20, 80%, 50%;
+  --secondary-foreground: 30, 50%, 20%;
+
+  --accent: 60, 70%, 50%;
+  --accent-foreground: 30, 50%, 95%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 40, 80%, 95%;
+
+  --ring: 30, 50%, 40%;
+}
+
+.sunrise.dark {
+  --background: 30, 50%, 20%;
+  --foreground: 40, 80%, 95%;
+
+  --muted: 30, 50%, 40%;
+  --muted-foreground: 40, 80%, 95%;
+
+  --popover: 30, 50%, 20%;
+  --popover-foreground: 40, 80%, 95%;
+
+  --border: 40, 30%, 85%;
+  --input: 40, 30%, 85%;
+
+  --card: 30, 50%, 20%;
+  --card-foreground: 40, 80%, 95%;
+
+  --primary: 40, 80%, 75%;
+  --primary-foreground: 30, 50%, 20%;
+
+  --secondary: 20, 80%, 50%;
+  --secondary-foreground: 40, 80%, 95%;
+
+  --accent: 60, 70%, 50%;
+  --accent-foreground: 30, 50%, 20%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 40, 80%, 95%;
+
+  --ring: 40, 30%, 85%;
+}

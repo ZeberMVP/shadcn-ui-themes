@@ -34,6 +34,14 @@ const ThemeSelector = () => {
         <SelectContent>
           <SelectItem value="default">Default</SelectItem>
           <SelectItem value="documentation">Documentation</SelectItem>
+          <SelectItem value="ocean">Ocean</SelectItem>
+          <SelectItem value="sunset">Sunset</SelectItem>
+          <SelectItem value="crimson">Crimson</SelectItem>
+          <SelectItem value="forest">Forest</SelectItem>
+          <SelectItem value="sapphire">Sapphire</SelectItem>
+          <SelectItem value="sunrise">Sunrise</SelectItem>
+          <SelectItem value="royal">Royal</SelectItem>
+          <SelectItem value="violet">Violet</SelectItem>
         </SelectContent>
       </Select>
       <CopyButton value={copyValue} />

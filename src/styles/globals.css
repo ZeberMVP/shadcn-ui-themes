@@ -1,4 +1,12 @@
 @import 'themes/documentation.css';
+@import 'themes/ocean.css';
+@import 'themes/sunset.css';
+@import 'themes/crimson.css';
+@import 'themes/forest.css';
+@import 'themes/sapphire.css';
+@import 'themes/sunrise.css';
+@import 'themes/royal.css';
+@import 'themes/violet.css';
 
 @tailwind base;
 @tailwind components;

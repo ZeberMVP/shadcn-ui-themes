@@ -1,0 +1,61 @@
+.royal.light {
+  --background: 240, 80%, 95%;
+  --foreground: 20, 30%, 20%;
+
+  --muted: 240, 50%, 90%;
+  --muted-foreground: 20, 30%, 20%;
+
+  --popover: 240, 80%, 90%;
+  --popover-foreground: 20, 30%, 20%;
+
+  --border: 20, 30%, 40%;
+  --input: 20, 30%, 40%;
+
+  --card: 240, 80%, 95%;
+  --card-foreground: 20, 30%, 20%;
+
+  --primary: 240, 80%, 70%;
+  --primary-foreground: 20, 30%, 95%;
+
+  --secondary: 220, 80%, 50%;
+  --secondary-foreground: 20, 30%, 20%;
+
+  --accent: 160, 70%, 50%;
+  --accent-foreground: 20, 30%, 95%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 240, 80%, 95%;
+
+  --ring: 20, 30%, 40%;
+}
+
+.royal.dark {
+  --background: 20, 30%, 20%;
+  --foreground: 240, 80%, 95%;
+
+  --muted: 20, 30%, 40%;
+  --muted-foreground: 240, 80%, 95%;
+
+  --popover: 20, 30%, 20%;
+  --popover-foreground: 240, 80%, 95%;
+
+  --border: 240, 50%, 90%;
+  --input: 240, 50%, 90%;
+
+  --card: 20, 30%, 20%;
+  --card-foreground: 240, 80%, 95%;
+
+  --primary: 240, 80%, 70%;
+  --primary-foreground: 20, 30%, 20%;
+
+  --secondary: 220, 80%, 50%;
+  --secondary-foreground: 240, 80%, 95%;
+
+  --accent: 160, 70%, 50%;
+  --accent-foreground: 20, 30%, 20%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 240, 80%, 95%;
+
+  --ring: 240, 50%, 90%;
+}

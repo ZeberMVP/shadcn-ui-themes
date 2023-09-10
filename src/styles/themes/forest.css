@@ -1,0 +1,61 @@
+.forest.light {
+  --background: 130, 70%, 90%;
+  --foreground: 40, 50%, 20%;
+
+  --muted: 130, 30%, 80%;
+  --muted-foreground: 40, 50%, 20%;
+
+  --popover: 130, 70%, 90%;
+  --popover-foreground: 40, 50%, 20%;
+
+  --border: 40, 50%, 40%;
+  --input: 40, 50%, 40%;
+
+  --card: 130, 70%, 90%;
+  --card-foreground: 40, 50%, 20%;
+
+  --primary: 130, 70%, 70%;
+  --primary-foreground: 40, 50%, 90%;
+
+  --secondary: 150, 80%, 50%;
+  --secondary-foreground: 40, 50%, 20%;
+
+  --accent: 100, 70%, 50%;
+  --accent-foreground: 40, 50%, 90%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 130, 70%, 90%;
+
+  --ring: 40, 50%, 40%;
+}
+
+.forest.dark {
+  --background: 40, 50%, 20%;
+  --foreground: 130, 70%, 90%;
+
+  --muted: 40, 50%, 40%;
+  --muted-foreground: 130, 70%, 90%;
+
+  --popover: 40, 50%, 20%;
+  --popover-foreground: 130, 70%, 90%;
+
+  --border: 130, 30%, 80%;
+  --input: 130, 30%, 80%;
+
+  --card: 40, 50%, 20%;
+  --card-foreground: 130, 70%, 90%;
+
+  --primary: 130, 70%, 70%;
+  --primary-foreground: 40, 50%, 20%;
+
+  --secondary: 150, 80%, 50%;
+  --secondary-foreground: 130, 70%, 90%;
+
+  --accent: 100, 70%, 50%;
+  --accent-foreground: 40, 50%, 90%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 130, 70%, 90%;
+
+  --ring: 130, 30%, 80%;
+}

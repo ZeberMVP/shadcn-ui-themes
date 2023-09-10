@@ -1,0 +1,61 @@
+ .ocean.light {
+   --background: 200, 80%, 90%;
+   --foreground: 220, 20%, 30%;
+
+   --muted: 200, 20%, 80%;
+   --muted-foreground: 220, 20%, 30%;
+
+   --popover: 200, 80%, 80%;
+   --popover-foreground: 220, 20%, 30%;
+
+   --border: 220, 20%, 70%;
+   --input: 220, 20%, 70%;
+
+   --card: 200, 80%, 90%;
+   --card-foreground: 220, 20%, 30%;
+
+   --primary: 200, 80%, 70%;
+   --primary-foreground: 220, 20%, 10%;
+
+   --secondary: 180, 80%, 60%;
+   --secondary-foreground: 220, 20%, 30%;
+
+   --accent: 120, 80%, 50%;
+   --accent-foreground: 220, 20%, 10%;
+
+   --destructive: 0, 70%, 50%;
+   --destructive-foreground: 220, 20%, 10%;
+
+   --ring: 220, 20%, 70%;
+ }
+
+ .ocean.dark {
+   --background: 220, 20%, 10%;
+   --foreground: 200, 80%, 90%;
+
+   --muted: 220, 20%, 30%;
+   --muted-foreground: 200, 80%, 90%;
+
+   --popover: 220, 20%, 10%;
+   --popover-foreground: 200, 80%, 90%;
+
+   --border: 220, 20%, 30%;
+   --input: 220, 20%, 30%;
+
+   --card: 220, 20%, 10%;
+   --card-foreground: 200, 80%, 90%;
+
+   --primary: 200, 80%, 70%;
+   --primary-foreground: 220, 20%, 10%;
+
+   --secondary: 180, 80%, 60%;
+   --secondary-foreground: 220, 20%, 30%;
+
+   --accent: 120, 80%, 50%;
+   --accent-foreground: 220, 20%, 10%;
+
+   --destructive: 0, 70%, 50%;
+   --destructive-foreground: 220, 20%, 10%;
+
+   --ring: 220, 20%, 30%;
+ }

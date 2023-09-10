@@ -1,0 +1,61 @@
+.violet.light {
+  --background: 270, 80%, 95%;
+  --foreground: 280, 30%, 20%;
+
+  --muted: 270, 50%, 90%;
+  --muted-foreground: 280, 30%, 20%;
+
+  --popover: 270, 80%, 90%;
+  --popover-foreground: 280, 30%, 20%;
+
+  --border: 280, 30%, 40%;
+  --input: 280, 30%, 40%;
+
+  --card: 270, 80%, 95%;
+  --card-foreground: 280, 30%, 20%;
+
+  --primary: 270, 80%, 70%;
+  --primary-foreground: 280, 30%, 95%;
+
+  --secondary: 250, 80%, 50%;
+  --secondary-foreground: 280, 30%, 90%;
+
+  --accent: 220, 70%, 50%;
+  --accent-foreground: 280, 30%, 95%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 270, 80%, 95%;
+
+  --ring: 280, 30%, 40%;
+}
+
+.violet.dark {
+  --background: 280, 30%, 20%;
+  --foreground: 270, 80%, 95%;
+
+  --muted: 280, 30%, 40%;
+  --muted-foreground: 270, 80%, 95%;
+
+  --popover: 280, 30%, 20%;
+  --popover-foreground: 270, 80%, 95%;
+
+  --border: 270, 50%, 90%;
+  --input: 270, 50%, 90%;
+
+  --card: 280, 30%, 20%;
+  --card-foreground: 270, 80%, 95%;
+
+  --primary: 270, 80%, 70%;
+  --primary-foreground: 280, 30%, 20%;
+
+  --secondary: 250, 80%, 50%;
+  --secondary-foreground: 270, 80%, 95%;
+
+  --accent: 220, 70%, 50%;
+  --accent-foreground: 280, 30%, 20%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 270, 80%, 95%;
+
+  --ring: 270, 50%, 90%;
+}

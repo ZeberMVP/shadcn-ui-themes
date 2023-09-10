@@ -1,0 +1,61 @@
+.crimson.light {
+  --background: 340, 90%, 95%;
+  --foreground: 10, 30%, 20%;
+
+  --muted: 340, 50%, 90%;
+  --muted-foreground: 10, 30%, 20%;
+
+  --popover: 340, 90%, 90%;
+  --popover-foreground: 10, 30%, 20%;
+
+  --border: 10, 30%, 40%;
+  --input: 10, 30%, 40%;
+
+  --card: 340, 90%, 95%;
+  --card-foreground: 10, 30%, 20%;
+
+  --primary: 340, 90%, 70%;
+  --primary-foreground: 10, 30%, 95%;
+
+  --secondary: 300, 80%, 50%;
+  --secondary-foreground: 10, 30%, 20%;
+
+  --accent: 0, 70%, 50%;
+  --accent-foreground: 10, 30%, 95%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 340, 90%, 95%;
+
+  --ring: 10, 30%, 40%;
+}
+
+.crimson.dark {
+  --background: 10, 30%, 20%;
+  --foreground: 340, 90%, 95%;
+
+  --muted: 10, 30%, 40%;
+  --muted-foreground: 340, 90%, 95%;
+
+  --popover: 10, 30%, 20%;
+  --popover-foreground: 340, 90%, 95%;
+
+  --border: 340, 50%, 90%;
+  --input: 340, 50%, 90%;
+
+  --card: 10, 30%, 20%;
+  --card-foreground: 340, 90%, 95%;
+
+  --primary: 340, 90%, 70%;
+  --primary-foreground: 10, 30%, 20%;
+
+  --secondary: 300, 80%, 50%;
+  --secondary-foreground: 340, 90%, 95%;
+
+  --accent: 0, 70%, 50%;
+  --accent-foreground: 10, 30%, 20%;
+
+  --destructive: 0, 60%, 50%;
+  --destructive-foreground: 340, 90%, 95%;
+
+  --ring: 340, 50%, 90%;
+}

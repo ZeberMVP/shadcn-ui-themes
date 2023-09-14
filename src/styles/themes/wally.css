@@ -1,0 +1,61 @@
+.wally.light {
+  --background: 100, 100%, 100%;
+  --foreground: 0, 100%, 60%;
+
+  --muted: 98, 15%, 90%;
+  --muted-foreground: 0, 100%, 40%;
+
+  --popover: 98, 15%, 90%;
+  --popover-foreground: 0, 100%, 40%;
+
+  --border: 98, 15%, 90%;
+  --input: 98, 15%, 90%;
+
+  --card: 100, 100%, 100%;
+  --card-foreground: 0, 100%, 60%;
+
+  --primary: 0, 100%, 60%;
+  --primary-foreground: 100, 100%, 100%;
+
+  --secondary: 0, 100%, 40%;
+  --secondary-foreground: 100, 100%, 100%;
+
+  --accent: 0, 100%, 60%;
+  --accent-foreground: 100, 100%, 100%;
+
+  --destructive: 0, 80%, 50%;
+  --destructive-foreground: 100, 100%, 100%;
+
+  --ring: 98, 15%, 90%;
+}
+
+.wally.dark {
+  --background: 0, 0%, 0%;
+  --foreground: 0, 100%, 60%;
+
+  --muted: 2, 15%, 10%;
+  --muted-foreground: 0, 100%, 40%;
+
+  --popover: 2, 15%, 10%;
+  --popover-foreground: 0, 100%, 40%;
+
+  --border: 2, 15%, 10%;
+  --input: 2, 15%, 10%;
+
+  --card: 0, 0%, 0%;
+  --card-foreground: 0, 100%, 60%;
+
+  --primary: 0, 100%, 60%;
+  --primary-foreground: 0, 0%, 0%;
+
+  --secondary: 0, 100%, 40%;
+  --secondary-foreground: 0, 0%, 0%;
+
+  --accent: 0, 100%, 60%;
+  --accent-foreground: 0, 0%, 0%;
+
+  --destructive: 0, 80%, 50%;
+  --destructive-foreground: 0, 0%, 0%;
+
+  --ring: 2, 15%, 10%;
+}

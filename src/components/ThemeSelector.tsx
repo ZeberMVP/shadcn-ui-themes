@@ -42,6 +42,7 @@ const ThemeSelector = () => {
           <SelectItem value="sunrise">Sunrise</SelectItem>
           <SelectItem value="royal">Royal</SelectItem>
           <SelectItem value="violet">Violet</SelectItem>
+          <SelectItem value="wally">Wally</SelectItem>
         </SelectContent>
       </Select>
       <CopyButton value={copyValue} />

@@ -1,8 +1,9 @@
-# @shadcn/ui themes
+# shadcn/ui themes
 <p align="left">
 <a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer"><img src="readme_files/shadcn-ui.png" width="36" height="36" alt="shadcn/ui" /></a>
 </p>
-In this web app you can explore different themes for the @shadcn/ui library. Look how this themes would look in your project and start using theme easily.
+In this web app you can explore different themes for the shadcn/ui library. Look how this themes would look in your project and start using theme easily.
+
 ### How to use
 1. Configure shadcn/ui on your project.<br />
 2. Select a theme and click the copy button. <br />

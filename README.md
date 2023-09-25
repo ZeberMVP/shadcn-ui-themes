@@ -2,6 +2,7 @@
 <p align="left">
 <a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer"><img src="readme_files/shadcn-ui.png" width="36" height="36" alt="shadcn/ui" /></a>
 </p>
+https://shadcn-ui-themes.vercel.app/ <br> <br>
 In this web app you can explore different themes for the shadcn/ui library. Look how this themes would look in your project and start using theme easily.
 
 ### How to use

@@ -19,6 +19,7 @@ import {
 } from "@/components/PageHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { Analytics } from "@/components/Analytics";
 
 export const metadata: Metadata = {
   title: {
@@ -131,10 +132,11 @@ export default async function RootLayout({ children }: RootLayoutProps) {
               <SiteFooter />
             </div>
             <TailwindIndicator />
+            <ThemeSwitcher />
+            <Analytics />
+            <NewYorkToaster />
+            <DefaultToaster />
           </ThemeProvider>
-          <ThemeSwitcher />
-          <NewYorkToaster />
-          <DefaultToaster />
         </body>
       </html>
     </>

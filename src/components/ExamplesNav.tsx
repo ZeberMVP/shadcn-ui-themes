@@ -6,6 +6,7 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 
 import { cn } from "@/lib/utils";
 import { ScrollArea, ScrollBar } from "@/registry/new-york/ui/ScrollArea";
+import ThemeSelector from "./ThemeSelector";
 
 const examples = [
   {
@@ -77,6 +78,7 @@ export function ExamplesNav({ className, ...props }: ExamplesNavProps) {
         </div>
         <ScrollBar orientation="horizontal" className="invisible" />
       </ScrollArea>
+      <ThemeSelector />
     </div>
   );
 }

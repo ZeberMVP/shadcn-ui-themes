@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 import { cookies } from "next/headers";
 
 import { ThemeProvider } from "@/components/Providers";
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
   },
+  metadataBase: new URL(siteConfig.url),
   description: siteConfig.description,
   keywords: [
     "Next.js",
@@ -36,14 +37,10 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "ZeberMVP",
-      url: "https://rubenzafra.com",
+      url: "https://ruben-zafra.vercel.app",
     },
   ],
   creator: "ZeberMVP",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -60,12 +57,26 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+    creator: "@zebermvp",
+  },
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
 };
 
 interface RootLayoutProps {

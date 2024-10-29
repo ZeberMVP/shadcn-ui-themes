@@ -83,8 +83,8 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
-  const cookieStore = cookies();
+export default async function RootLayout({ children }: RootLayoutProps) {
+  const cookieStore = await cookies();
   const currentTheme = cookieStore.get("currentTheme")?.value || "default";
 
   return (

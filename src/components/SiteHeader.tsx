@@ -47,7 +47,7 @@ export function SiteHeader() {
                 )}
               >
                 <Icons.twitter className="h-4 w-4 fill-current" />
-                <span className="sr-only">Twitter</span>
+                <span className="sr-only">X</span>
               </div>
             </Link>
             <ModeToggle />

@@ -33,7 +33,6 @@ const ThemeSelector = () => {
         </SelectTrigger>
         <SelectContent>
           <SelectItem value="default">Default</SelectItem>
-          <SelectItem value="documentation">Documentation</SelectItem>
           <SelectItem value="ocean">Ocean</SelectItem>
           <SelectItem value="sunset">Sunset</SelectItem>
           <SelectItem value="crimson">Crimson</SelectItem>
@@ -42,7 +41,6 @@ const ThemeSelector = () => {
           <SelectItem value="sunrise">Sunrise</SelectItem>
           <SelectItem value="royal">Royal</SelectItem>
           <SelectItem value="violet">Violet</SelectItem>
-          <SelectItem value="wally">Wally</SelectItem>
         </SelectContent>
       </Select>
       <CopyButton value={copyValue} />

@@ -12,9 +12,15 @@ In this web app you can explore different themes for the shadcn/ui library. Look
 
 ### Examples
 
-![image](https://github.com/ZeberMVP/shadcn-ui-themes/assets/106594858/1a64acfa-e5de-44fa-857b-042521f2ddce)
-![image](https://github.com/ZeberMVP/shadcn-ui-themes/assets/106594858/c88dcc7e-4bf6-4622-a0b2-b90d48304ebb)
-![image](https://github.com/ZeberMVP/shadcn-ui-themes/assets/106594858/0c5ea804-0811-4ceb-9466-a89e7dc330f7)
-![image](https://github.com/ZeberMVP/shadcn-ui-themes/assets/106594858/fb75cdf5-2532-4699-a9fc-ddca5d91e3b3)
-![image](https://github.com/ZeberMVP/shadcn-ui-themes/assets/106594858/fa9ca6b7-6a94-4af7-a2d2-db42b10f58de)
-![image](https://github.com/ZeberMVP/shadcn-ui-themes/assets/106594858/4a36feec-be2a-463f-a648-9404a8b90293)
+![image](https://github.com/user-attachments/assets/2cafa909-551c-49c4-8650-7768f69940bf)
+<br><br>
+![image](https://github.com/user-attachments/assets/0a2fb3d0-f382-408f-9020-06c51ca4a942)
+<br><br>
+![image](https://github.com/user-attachments/assets/d0c8e611-dabb-4093-bd12-03021d6dd24f)
+<br><br>
+![image](https://github.com/user-attachments/assets/3cc0f2c0-8aef-43be-83bb-eb1ec1040cc2)
+<br><br>
+![image](https://github.com/user-attachments/assets/3941f552-9bcf-4b62-ad93-0ebdfa3cfcd2)
+<br><br>
+![image](https://github.com/user-attachments/assets/b0d8abb4-5b64-4835-90da-8d2e9b31e27f)
+
